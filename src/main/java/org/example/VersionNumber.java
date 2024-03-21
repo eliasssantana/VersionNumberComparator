@@ -1,10 +1,12 @@
 package org.example;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.util.Arrays;
 
 public class VersionNumber {
 
-    public static int compare(String v1, String v2) {
+    public static int compare(@NotNull String v1, @NotNull String v2) {
 
         int[] a1 = Arrays.stream(v1.split("\\."))
                 .map(String::trim)
