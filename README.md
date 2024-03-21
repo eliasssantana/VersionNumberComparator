@@ -1,2 +1,2 @@
 # VersionNumberComparator
-This is a version number comparator written in Java.
+This is a version number comparator algorithm written in Java.
